@@ -3,7 +3,7 @@ import pickle
 import numpy as np # type: ignore
 
 # Load the pre-trained model
-with open('/home/aspatil/Desktop/This PC/PROJECTS/Airline Customer Satisfaction Prediction/APP/Models/lgbm_model.pkl', 'rb') as file:
+with open('Models/lgbm_model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 
